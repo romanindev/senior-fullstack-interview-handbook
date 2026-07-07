@@ -33,6 +33,9 @@ Repository cleanup and documentation foundation.
 - Markdown lint workflow added
 - `docs/README.md` added
 - `docs/00-start-here` section added
+- `docs/00-start-here/preparation-plan.md` added
+- `docs/00-start-here/how-to-answer-senior-questions.md` added
+- `docs/00-start-here/common-interview-mistakes.md` added
 - Section README files improved
 - `docs/question-template.md` improved
 - `docs/examples/README.md` improved
@@ -57,7 +60,7 @@ Repository cleanup and documentation foundation.
 
 | Section | Status | Notes |
 | --- | --- | --- |
-| 00 Start Here | Draft started | Reader onboarding pages added |
+| 00 Start Here | Draft in progress | Six onboarding pages added |
 | 01 Modern React | Not started | Section README prepared |
 | 02 TypeScript | Not started | Section README prepared |
 | 03 Node.js | Not started | Section README prepared |
