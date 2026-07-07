@@ -1,30 +1,34 @@
-# IDE
-.idea/
-.vscode/
+# Env files
+.env
+.env.local
+.env.*.local
 
-# OS files
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Dependencies
+node_modules/
+
+# Build output
+_build/
+dist/
+site/
+coverage/
+
+# Generated files
+*.pdf
+*.epub
 
 # Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
-
-# Env files
-.env
-.env.local
-.env.*.local
-
-# Coverage
-coverage/
-
-# Cache
-.cache/
-.turbo/
-
-*.pdf
-
-_build/
-site/

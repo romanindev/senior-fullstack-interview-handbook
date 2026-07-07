@@ -1,0 +1,30 @@
+name: Documentation issue
+description: Report an error, outdated information, typo, or broken link
+title: "Docs issue: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong or unclear?
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link or path to the affected file.
+      placeholder: "Example: docs/01-modern-react/reconciliation.md"
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: How should it be improved?
+    validations:
+      required: false
