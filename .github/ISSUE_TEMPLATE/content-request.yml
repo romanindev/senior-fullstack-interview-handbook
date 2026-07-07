@@ -1,0 +1,31 @@
+name: Content request
+description: Suggest a new topic, section, or interview question
+title: "Content request: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What topic should be added or improved?
+      placeholder: "Example: React reconciliation, Node.js streams, API versioning"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this useful?
+      description: Explain why this topic is useful for senior-level interviews.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-location
+    attributes:
+      label: Suggested location
+      description: Where should this content live?
+      placeholder: "Example: docs/01-modern-react/"
+    validations:
+      required: false
