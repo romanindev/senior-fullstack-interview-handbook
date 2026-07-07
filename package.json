@@ -1,0 +1,14 @@
+{
+  "name": "senior-fullstack-interview-handbook",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An open-source, vendor-neutral handbook for Senior Full Stack Engineer interview preparation.",
+  "author": "Roman Onishchenko (https://github.com/romanindev)",
+  "license": "MIT",
+  "scripts": {
+    "lint:md": "markdownlint-cli2"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.14.0"
+  }
+}
